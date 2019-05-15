@@ -14,6 +14,9 @@
 		57A7E4BF228BE755001DF8BB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 57A7E4BD228BE755001DF8BB /* LaunchScreen.storyboard */; };
 		57A7E4CA228BE755001DF8BB /* OOPTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57A7E4C9228BE755001DF8BB /* OOPTests.swift */; };
 		57A7E4D5228BE755001DF8BB /* OOPUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57A7E4D4228BE755001DF8BB /* OOPUITests.swift */; };
+		57A7E4E3228BE7CE001DF8BB /* CoffeeMachine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57A7E4E2228BE7CE001DF8BB /* CoffeeMachine.swift */; };
+		57A7E4E5228C032E001DF8BB /* Machine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57A7E4E4228C032E001DF8BB /* Machine.swift */; };
+		57A7E4E7228C053A001DF8BB /* RoundedButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57A7E4E6228C053A001DF8BB /* RoundedButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +50,9 @@
 		57A7E4D0228BE755001DF8BB /* OOPUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OOPUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		57A7E4D4228BE755001DF8BB /* OOPUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OOPUITests.swift; sourceTree = "<group>"; };
 		57A7E4D6228BE755001DF8BB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		57A7E4E2228BE7CE001DF8BB /* CoffeeMachine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoffeeMachine.swift; sourceTree = "<group>"; };
+		57A7E4E4228C032E001DF8BB /* Machine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Machine.swift; sourceTree = "<group>"; };
+		57A7E4E6228C053A001DF8BB /* RoundedButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,9 +103,12 @@
 		57A7E4B3228BE754001DF8BB /* OOP */ = {
 			isa = PBXGroup;
 			children = (
+				57A7E4E2228BE7CE001DF8BB /* CoffeeMachine.swift */,
 				57A7E4B4228BE754001DF8BB /* AppDelegate.swift */,
 				57A7E4B6228BE754001DF8BB /* ViewController.swift */,
+				57A7E4E4228C032E001DF8BB /* Machine.swift */,
 				57A7E4B8228BE754001DF8BB /* Main.storyboard */,
+				57A7E4E6228C053A001DF8BB /* RoundedButton.swift */,
 				57A7E4BB228BE755001DF8BB /* Assets.xcassets */,
 				57A7E4BD228BE755001DF8BB /* LaunchScreen.storyboard */,
 				57A7E4C0228BE755001DF8BB /* Info.plist */,
@@ -257,7 +266,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				57A7E4B7228BE754001DF8BB /* ViewController.swift in Sources */,
+				57A7E4E7228C053A001DF8BB /* RoundedButton.swift in Sources */,
+				57A7E4E5228C032E001DF8BB /* Machine.swift in Sources */,
 				57A7E4B5228BE754001DF8BB /* AppDelegate.swift in Sources */,
+				57A7E4E3228BE7CE001DF8BB /* CoffeeMachine.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
